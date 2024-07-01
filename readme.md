@@ -1,30 +1,49 @@
 # Car Object Detection - YOLOV8 Simple Pipeline
 
-Original Datasets from: TJHSST/Car Object Detection Datasets &nbsp
+Original Datasets from: TJHSST/Car Object Detection Datasets
 
 ## Dataset Preparation
 
-The dataset preparation script is the jupyter notbook.
+The dataset preparation script is the jupyter notbook file: <ins>**data.ipynb**</ins>.\
 You can pretty much refer to this data pipeline for all YOLOv8 dataset conversion.
 
 ## Metrics
-Baseline Model: YOLOV8N
-Epochs: 200
+Baseline Model: YOLOV8n\
+Epochs Ran: 300
+
+**The first 200 Epochs:**
+
+![results](https://github.com/csf233csf/car-detection-project/assets/56235101/5d854fe0-0bc8-4c82-ada6-db526cb4f661)
+
+
+**The last 100 Epochs (Resumed Training):**
+![results](https://github.com/csf233csf/car-detection-project/assets/56235101/bffa51c6-9440-423c-b688-146e17297808)
+
+**Stats and Speed:**
+![image](https://github.com/csf233csf/car-detection-project/assets/56235101/b1879dff-9947-4a72-8137-2b61f1d1e76e)
 
 
 ## How to use this script:
 
 1. Verify your CUDA and environment (If needed)
-```python3 cudaverification.py```
+```sh
+python3 cudaverification.py
+```
 
-2. Install the requirements
-```pip install ultralytics```
+3. Install the requirements
+```sh
+pip install ultralytics
+```
 
-3. Run the training script
-```python3 train.py```
+5. Run the training script
+```sh
+python3 train.py
+```
 
-4. Resume the training from a checkpoint
-
+6. Resume the training from a checkpoint
+```sh
+python3 resume.py
+```
 
 
 
