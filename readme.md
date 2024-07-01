@@ -22,6 +22,9 @@ Epochs Ran: 300
 **Stats and Speed:**
 ![image](https://github.com/csf233csf/car-detection-project/assets/56235101/b1879dff-9947-4a72-8137-2b61f1d1e76e)
 
+## Talk is cheap, show me the weights
+
+Model is avaliable here: <ins>**https://huggingface.co/kanoml/car-detection-yolo**</ins>
 
 ## How to use this script:
 
