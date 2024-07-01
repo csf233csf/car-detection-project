@@ -1,0 +1,6 @@
+names:
+  0: Car
+nc: 1
+path: processed_data
+train: images/train
+val: images/val
