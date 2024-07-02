@@ -2,6 +2,17 @@
 
 Original Datasets from: TJHSST/Car Object Detection Datasets
 
+# Update: I implement it to Flask API, USAGE see following
+
+**To Start the Flask API:**
+```sh
+python3 server2.py
+```
+**Example Usage:**
+```sh
+python3 api_test.py
+```
+
 ## Dataset Preparation
 
 The dataset preparation script is the jupyter notbook file: <ins>**data.ipynb**</ins>.\
@@ -27,18 +38,6 @@ Epochs Ran: 300
 ## Talk is cheap, show me the weights
 
 Model is avaliable here: **https://huggingface.co/kanoml/car-detection-yolo**
-
-# API USAGE
-
-**To Start the Flask API:**
-```sh
-python3 server2.py
-```
-**Example Usage:**
-```sh
-python3 api_test.py
-```
-
 
 ## How to use this Train script:
 
