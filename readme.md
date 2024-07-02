@@ -28,7 +28,19 @@ Epochs Ran: 300
 
 Model is avaliable here: **https://huggingface.co/kanoml/car-detection-yolo**
 
-## How to use this script:
+# API USAGE
+
+**To Start the Flask API:**
+```sh
+python3 server2.py
+```
+**Example Usage:**
+```sh
+python3 api_test.py
+```
+
+
+## How to use this Train script:
 
 1. Verify your CUDA and environment (If needed)
 ```sh
